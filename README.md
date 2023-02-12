@@ -1,5 +1,6 @@
-## how to use (luau)
 ```
-local RandomWord = loadstring(game:HttpGet("https://raw.githubusercontent.com/6ce/Get-Random-Word/main/randomWord.lua"))
-print(RandomWord())
+local RandomWordScript = game:HttpGetAsync("https://raw.githubusercontent.com/carolesdaughter/Roblox-Get-Random-Word/main/randomWord.lua", true)
+local GetRandomWord = loadstring(RandomWordScript)
+
+print(GetRandomWord())
 ```
