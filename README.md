@@ -1,5 +1,5 @@
 ```
-local RandomWordScript = game:HttpGetAsync("https://github.com/carolesdaughter/Roblox-Get-Random-Word/blob/main/GetRandomWord.lua", true)
+local RandomWordScript = game:HttpGetAsync("https://raw.githubusercontent.com/carolesdaughter/Roblox-Get-Random-Word/main/GetRandomWord.lua", true)
 local GetRandomWord = loadstring(RandomWordScript)()
 
 print(GetRandomWord())
